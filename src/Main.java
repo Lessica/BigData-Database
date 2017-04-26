@@ -41,7 +41,7 @@ public class Main {
     }
 
     // Exercise 4
-
+    // The way of execute raw sql statement cannot prevent leak caused by SQL injection.
 
     public static void main(String[] args) {
         /* Load JDBC Driver. */
