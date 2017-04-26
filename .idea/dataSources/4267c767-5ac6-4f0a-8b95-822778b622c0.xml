@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataSource name="@localhost">
+  <database-model serializer="dbm" rdbms="ORACLE" format-version="4.1">
+    <root id="1"/>
+    <schema id="2" parent="1" name="DARWIN">
+      <ObjectId>48</ObjectId>
+      <IntrospectionTimestamp>2017-04-26.21:57:43</IntrospectionTimestamp>
+      <CreatedTimestamp>2017-04-26.21:26:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:28:40</ModifiedTimestamp>
+      <Current>1</Current>
+      <Visible>1</Visible>
+    </schema>
+    <schema id="3" parent="1" name="PUBLIC">
+      <ObjectId>1</ObjectId>
+    </schema>
+    <schema id="4" parent="1" name="SYS">
+      <ObjectId>0</ObjectId>
+    </schema>
+    <schema id="5" parent="1" name="SYSTEM">
+      <ObjectId>5</ObjectId>
+    </schema>
+    <schema id="6" parent="1" name="OUTLN">
+      <ObjectId>9</ObjectId>
+    </schema>
+    <schema id="7" parent="1" name="CTXSYS">
+      <ObjectId>32</ObjectId>
+    </schema>
+    <schema id="8" parent="1" name="XDB">
+      <ObjectId>34</ObjectId>
+    </schema>
+    <schema id="9" parent="1" name="ANONYMOUS">
+      <ObjectId>35</ObjectId>
+    </schema>
+    <schema id="10" parent="1" name="MDSYS">
+      <ObjectId>42</ObjectId>
+    </schema>
+    <schema id="11" parent="1" name="HR">
+      <ObjectId>43</ObjectId>
+    </schema>
+    <schema id="12" parent="1" name="FLOWS_FILES">
+      <ObjectId>44</ObjectId>
+    </schema>
+    <schema id="13" parent="1" name="APEX_PUBLIC_USER">
+      <ObjectId>45</ObjectId>
+    </schema>
+    <schema id="14" parent="1" name="APEX_040000">
+      <ObjectId>47</ObjectId>
+    </schema>
+    <schema id="15" parent="1" name="XS$NULL">
+      <ObjectId>2147483638</ObjectId>
+    </schema>
+    <sequence id="16" parent="2" name="MA_SEQUENCE">
+      <ObjectId>20047</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:27:12</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:27:12</ModifiedTimestamp>
+      <SequenceIdentity>1</SequenceIdentity>
+    </sequence>
+    <table id="17" parent="2" name="BONUS">
+      <ObjectId>20044</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:26:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="18" parent="2" name="DEPENDENTS">
+      <ObjectId>20042</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:26:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:27:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="19" parent="2" name="DEPT">
+      <ObjectId>20038</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:26:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="20" parent="2" name="EMP">
+      <ObjectId>20040</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:26:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:27:12</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="21" parent="2" name="PROJ">
+      <ObjectId>20048</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:27:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:27:47</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="22" parent="2" name="SALGRADE">
+      <ObjectId>20045</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:26:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <table id="23" parent="2" name="WORKREL">
+      <ObjectId>20050</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:27:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:27:47</ModifiedTimestamp>
+      <TemporaryPreserve>1</TemporaryPreserve>
+    </table>
+    <view id="24" parent="2" name="SALES_STAFF">
+      <ObjectId>20052</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:28:40</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:28:40</ModifiedTimestamp>
+      <Modifiable>1</Modifiable>
+    </view>
+    <column id="25" parent="17" name="ENAME">
+      <Position>1</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="26" parent="17" name="JOB">
+      <Position>2</Position>
+      <DataType>VARCHAR2(9)|0</DataType>
+    </column>
+    <column id="27" parent="17" name="SAL">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="28" parent="17" name="COMM">
+      <Position>4</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="29" parent="18" name="DNO">
+      <Position>1</Position>
+      <DataType>NUMBER(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="30" parent="18" name="DNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="31" parent="18" name="DFIRST">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="32" parent="18" name="EMPNO">
+      <Position>4</Position>
+      <DataType>NUMBER(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="33" parent="18" name="PK_DEPENDENT">
+      <ObjectId>20043</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:26:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <TablespaceName>TBS_PERM_01</TablespaceName>
+      <ColNames>DNO
+EMPNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="34" parent="18" name="PK_DEPENDENT">
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <ColNames>DNO
+EMPNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_DEPENDENT</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="35" parent="18" name="FK_DEPENDENT_EMP">
+      <ModifiedTimestamp>2017-04-26.21:27:12</ModifiedTimestamp>
+      <ColNames>EMPNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>EMP</RefTableName>
+      <RefKeyName>PK_EMP</RefKeyName>
+      <OnDelete>cascade</OnDelete>
+    </foreign-key>
+    <column id="36" parent="19" name="DEPTNO">
+      <Position>1</Position>
+      <DataType>NUMBER(2)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="37" parent="19" name="DNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(14)|0</DataType>
+    </column>
+    <column id="38" parent="19" name="LOC">
+      <Position>3</Position>
+      <DataType>VARCHAR2(13)|0</DataType>
+    </column>
+    <index id="39" parent="19" name="PK_DEPT">
+      <ObjectId>20039</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:26:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <TablespaceName>TBS_PERM_01</TablespaceName>
+      <ColNames>DEPTNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="40" parent="19" name="PK_DEPT">
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <ColNames>DEPTNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_DEPT</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="41" parent="20" name="EMPNO">
+      <Position>1</Position>
+      <DataType>NUMBER(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="42" parent="20" name="ENAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="43" parent="20" name="EFIRST">
+      <Position>3</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="44" parent="20" name="JOB">
+      <Position>4</Position>
+      <DataType>VARCHAR2(9)|0</DataType>
+    </column>
+    <column id="45" parent="20" name="MGR">
+      <Position>5</Position>
+      <DataType>NUMBER(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="46" parent="20" name="HIREDATE">
+      <Position>6</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="47" parent="20" name="SAL">
+      <Position>7</Position>
+      <DataType>NUMBER(7,2)|0</DataType>
+    </column>
+    <column id="48" parent="20" name="COMM">
+      <Position>8</Position>
+      <DataType>NUMBER(7,2)|0</DataType>
+    </column>
+    <column id="49" parent="20" name="TEL">
+      <Position>9</Position>
+      <DataType>CHAR(10)|0</DataType>
+    </column>
+    <column id="50" parent="20" name="DEPTNO">
+      <Position>10</Position>
+      <DataType>NUMBER(2)|0</DataType>
+    </column>
+    <column id="51" parent="20" name="MOBILE">
+      <Position>11</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <index id="52" parent="20" name="PK_EMP">
+      <ObjectId>20041</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:26:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <TablespaceName>TBS_PERM_01</TablespaceName>
+      <ColNames>EMPNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <index id="53" parent="20" name="U_EMP_1">
+      <ObjectId>20046</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:26:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <TablespaceName>TBS_PERM_01</TablespaceName>
+      <ColNames>ENAME
+EFIRST
+TEL</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="54" parent="20" name="PK_EMP">
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <ColNames>EMPNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_EMP</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <key id="55" parent="20" name="U_EMP_1">
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <ColNames>ENAME
+EFIRST
+TEL</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>U_EMP_1</UnderlyingIndexName>
+    </key>
+    <foreign-key id="56" parent="20" name="FK_EMP_DEPT">
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <ColNames>DEPTNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>DEPT</RefTableName>
+      <RefKeyName>PK_DEPT</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <check id="57" parent="20" name="CK_SAL">
+      <ModifiedTimestamp>2017-04-26.21:26:47</ModifiedTimestamp>
+      <ColNames>SAL</ColNames>
+      <Predicate>SAL &gt;= 0</Predicate>
+    </check>
+    <check id="58" parent="20" name="C_EMP_1">
+      <ModifiedTimestamp>2017-04-26.21:27:12</ModifiedTimestamp>
+      <ColNames>MOBILE</ColNames>
+      <Predicate>SUBSTR(MOBILE, 0, 2) = &apos;06&apos;</Predicate>
+    </check>
+    <column id="59" parent="21" name="PROJNO">
+      <Position>1</Position>
+      <DataType>NUMBER(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="60" parent="21" name="PNAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="61" parent="21" name="STARTDATE">
+      <Position>3</Position>
+      <DataType>DATE|0</DataType>
+    </column>
+    <column id="62" parent="21" name="BUDGET">
+      <Position>4</Position>
+      <DataType>NUMBER(7,2)|0</DataType>
+    </column>
+    <index id="63" parent="21" name="PK_PROJ">
+      <ObjectId>20049</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:27:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:27:47</ModifiedTimestamp>
+      <TablespaceName>TBS_PERM_01</TablespaceName>
+      <ColNames>PROJNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="64" parent="21" name="PK_PROJ">
+      <ModifiedTimestamp>2017-04-26.21:27:47</ModifiedTimestamp>
+      <ColNames>PROJNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_PROJ</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <column id="65" parent="22" name="GRADE">
+      <Position>1</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="66" parent="22" name="LOSAL">
+      <Position>2</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="67" parent="22" name="HISAL">
+      <Position>3</Position>
+      <DataType>NUMBER(*)|0</DataType>
+    </column>
+    <column id="68" parent="23" name="PROJNO">
+      <Position>1</Position>
+      <DataType>NUMBER(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="69" parent="23" name="EMPNO">
+      <Position>2</Position>
+      <DataType>NUMBER(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <index id="70" parent="23" name="PK_WORKREL">
+      <ObjectId>20051</ObjectId>
+      <CreatedTimestamp>2017-04-26.21:27:47</CreatedTimestamp>
+      <ModifiedTimestamp>2017-04-26.21:27:47</ModifiedTimestamp>
+      <TablespaceName>TBS_PERM_01</TablespaceName>
+      <ColNames>PROJNO
+EMPNO</ColNames>
+      <Unique>1</Unique>
+    </index>
+    <key id="71" parent="23" name="PK_WORKREL">
+      <ModifiedTimestamp>2017-04-26.21:27:47</ModifiedTimestamp>
+      <ColNames>PROJNO
+EMPNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <UnderlyingIndexName>PK_WORKREL</UnderlyingIndexName>
+      <Primary>1</Primary>
+    </key>
+    <foreign-key id="72" parent="23" name="FK_WORKREL_PROJ">
+      <ModifiedTimestamp>2017-04-26.21:27:47</ModifiedTimestamp>
+      <ColNames>PROJNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>PROJ</RefTableName>
+      <RefKeyName>PK_PROJ</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <foreign-key id="73" parent="23" name="FK_WORKREL_EMP">
+      <ModifiedTimestamp>2017-04-26.21:27:47</ModifiedTimestamp>
+      <ColNames>EMPNO</ColNames>
+      <InitiallyDeferred>1</InitiallyDeferred>
+      <RefTableName>EMP</RefTableName>
+      <RefKeyName>PK_EMP</RefKeyName>
+      <OnDelete>restrict</OnDelete>
+    </foreign-key>
+    <column id="74" parent="24" name="EMPNO">
+      <Position>1</Position>
+      <DataType>NUMBER(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+    <column id="75" parent="24" name="ENAME">
+      <Position>2</Position>
+      <DataType>VARCHAR2(10)|0</DataType>
+    </column>
+    <column id="76" parent="24" name="DEPTNO">
+      <Position>3</Position>
+      <DataType>NUMBER(2)|0</DataType>
+    </column>
+    <column id="77" parent="24" name="MGR">
+      <Position>4</Position>
+      <DataType>NUMBER(4)|0</DataType>
+      <NotNull>1</NotNull>
+    </column>
+  </database-model>
+</dataSource>
